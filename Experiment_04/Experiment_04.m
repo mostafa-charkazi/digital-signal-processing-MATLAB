@@ -84,13 +84,14 @@ xlabel('n'); ylabel('h[n]'); grid on;
 
 % رسم پاسخ فرکانسی برای مقایسه
 [H1, w] = freqz(h1, 1, 1024);
+[H2, w] = freqz(h2, 1, 1024);
 [H3, w] = freqz(h3, 1, 1024);
 subplot(2,2,4);
-plot(w/pi, abs(H1), 'b', w/pi, abs(H3), 'r');
+plot(w/pi, abs(H1), 'b', w/pi, abs(H2), 'g', w/pi, abs(H3), 'r');
 title('پاسخ فرکانسی فیلترها');
 xlabel('فرکانس نرمال‌شده');
 ylabel('|H(e^{j\omega})|');
-legend('\omega_c=0.25', '\omega_c=0.45');
+legend('\omega_c=0.25', '\omega_c=0.25   N_2 = 50' ,'\omega_c=0.45');
 grid on;
 %% A06
 clear; close all; clc;
