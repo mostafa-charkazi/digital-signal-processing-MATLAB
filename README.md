@@ -14,5 +14,5 @@ MATLAB implementations and lab reports for the Digital Signal Processing (DSP) l
 7. Sampling of Continuous Signals, Upsampling & Downsampling
 8. Digital Image Processing
 9. Audio Signal Processing
-10. Random EEG Signal Processing with AI
+10. Random EEG Signal Processing with Machine Learning
 11. Implementation of Digital Modulation Schemes
