@@ -1,0 +1,4 @@
+help for activity 3:
+img3 = uint8((double(img)-121)*255/(184-121));
+
+please explain the equation
