@@ -41,6 +41,9 @@ b = - a * x_min;
 img2_stretch = a * img2_double + b;
 img2_stretch = uint8(img2_stretch);
 
+% for better histogram equalization:
+% img2_stretch = uint8((double(img2_double)-121)*255/(184-121));
+
 % Method b: Histogram equalization
 img2_histeq = histeq(img2);
 
