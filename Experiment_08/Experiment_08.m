@@ -34,6 +34,8 @@ x_min = min(img2_double(:));
 x_max = max(img2_double(:));
 
 % Method a: calculating image_stretch using y=ax+b
+
+
 a = 255 / (x_max - x_min);
 b = - a * x_min;
 img2_stretch = a * img2_double + b;
