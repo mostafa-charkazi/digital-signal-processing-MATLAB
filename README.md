@@ -1,7 +1,7 @@
 # Digital Signal Processing Laboratory – MATLAB Codes & Reports
 
 ## Description
-MATLAB implementations and lab reports for the Digital Signal Processing (DSP) laboratory course.
+MATLAB implementations and lab reports for the Digital Signal Processing laboratory (DSP lab) course.
 
 ## Experiments
 
